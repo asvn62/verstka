@@ -85,12 +85,6 @@ h1 {
     padding: 0 29px 29px 29px;
 }
 
-.card p {
-    font-size: 15px;
-    color: #262c2f;
-    padding: 0 29px;
-}
-
 .card a {
     font-size: 13px;
     color: #22a2ec;
@@ -99,19 +93,25 @@ h1 {
 .card h4 {
     font-size: 18px;
     color: #262c2f;
-    padding-left: 29px;
+    margin-top: 31px;
+    margin-left: 29px;
+    margin-bottom: 20px;
 }
 
 .cardtest_1 {
     border: 1px solid #d6d6d6;
     float: left;
-    margin-left: 44px;
+    margin-left: 43px;
 }
 
 .cardtest_2 {
     border: 5px solid #d6d6d6;
     float: left;
     margin-left: 57px;
+}
+
+.cardtest_2 h4 {
+    margin-top: 24px;
 }
 
 .cardtest_3 {
