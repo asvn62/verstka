@@ -73,28 +73,32 @@ h1 {
 
 .cards {
     margin-top: 32px;
+    font-size: 15px;
 }
 
 .card {
     width: 358px;
 }
 
+.card span {
+    display: inline-block;
+    padding: 0 29px 29px 29px;
+}
+
 .card p {
     font-size: 15px;
     color: #262c2f;
-    padding: 10px 32px;
+    padding: 0 29px;
 }
 
 .card a {
     font-size: 13px;
     color: #22a2ec;
-    padding-left: 29px;
 }
 
 .card h4 {
     font-size: 18px;
     color: #262c2f;
-    padding-top: 31px;
     padding-left: 29px;
 }
 
