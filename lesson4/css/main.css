@@ -120,3 +120,72 @@ h1 {
     float: right;
     margin-right: 48px;
 }
+
+.main-forma {
+    float: left;
+    margin-left: 43px;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 54px 43px 36px;
+}
+
+.text,
+.note,
+.form-button {
+    float: left;
+    clear: both;
+    width: 237px;
+    height: 44px;
+    margin-bottom: 12px;
+    color: #272c2f;
+}
+
+.note {
+    width: 357px;
+    height: 122px;
+}
+
+.form-button {
+    background-color: #ebce0d;
+    width: 166px;
+    height: 43px;
+    color: #272c2f;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.main-card {
+    border-radius: 10px;
+    background-color: #184c6b;
+    width: 760px;
+    height: 301px;
+    float: left;
+    margin-left: 59px;
+}
+
+h3 {
+    color: #c1ddee;
+    font-size: 21px;
+    margin-left: 39px;
+    margin-top: 43px;
+}
+
+.main-card_text {
+    float: left;
+    width: 317px;
+    margin-left: 39px;
+    color: #c1ddee;
+    font-size: 15px;
+    margin-top: 23px;
+}
+
+.main-card_picture {
+    float: left;
+    margin-left: 60px;
+    color: #c1ddee;
+    font-size: 15px;
+    clear: right;
+}
