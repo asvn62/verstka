@@ -144,8 +144,14 @@ h2 {
 }
 
 .note {
-    width: 357px;
+    width: 335px;
     height: 122px;
+}
+
+.text,
+.note {
+    padding-left: 24px;
+    font-size: 15px;
 }
 
 .form-button {
@@ -155,13 +161,21 @@ h2 {
     color: #272c2f;
     font-size: 15px;
     font-weight: 700;
+    margin-top: 24px;
+}
+
+.main-forma input::-moz-placeholder,
+textarea::-moz-placeholder,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: rgba(39, 44, 47, 0, 5);
 }
 
 .main-card {
     border-radius: 10px;
     background-color: #184c6b;
     width: 760px;
-    height: 301px;
+    height: 300px;
     float: left;
     margin-left: 59px;
 }
@@ -179,13 +193,19 @@ h3 {
     margin-left: 39px;
     color: #c1ddee;
     font-size: 15px;
-    margin-top: 23px;
+    line-height: 22px;
 }
 
 .main-card_picture {
     float: left;
-    margin-left: 60px;
     color: #c1ddee;
     font-size: 15px;
-    clear: right;
+    margin-left: 60px;
+}
+
+section p {
+    clear: both;
+    color: #848a8d;
+    font-size: 12px;
+    margin-left: 43px;
 }
