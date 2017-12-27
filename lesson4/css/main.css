@@ -15,14 +15,27 @@
             box-sizing: border-box;
         }
         
-        ul {
+        ul,
+        li {
             display: block;
             padding: 0;
             margin: 0;
         }
         
-        ul li {
-            display: block;
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
         }
         
         .clearfix:after {
@@ -36,17 +49,26 @@
             background: #22a2ec;
             color: #ffffff;
             font-weight: bold;
-            padding: 31px 45px;
+            padding: 32px 45px;
         }
         
         .logo {
             float: left;
             font-size: 18px;
-            font-weight: bold;
         }
         
-        nav {
+        .menu {
             float: left;
+            margin-left: 123px;
+        }
+        
+        .menu li {
+            float: left;
+            margin-left: 30px;
+        }
+        
+        .menu li a {
+            color: #ffffff;
         }
         
         .phone {
@@ -54,37 +76,30 @@
             font-size: 18px;
         }
         
-        .menu li {
-            float: left;
-            margin-left: 29px;
-            color: #ffffff;
-        }
-        
-        .menu li a {
-            color: #ffffff;
-            font-weight: bold;
+        .cards {
+            margin: 0 42px;
+            color: #262c2f;
         }
         
         h1 {
             font-size: 28px;
-            margin-top: 52px;
-            margin-left: 44px;
+            color: #272c2f;
         }
         
-        .cards {
-            margin-top: 32px;
-        }
+        .serv {}
         
         .card {
             width: 358px;
+            float: left;
+            border: 1px solid #d6d6d6;
+            margin-right: 57px;
         }
         
-        .card span {
-            display: inline-block;
-            padding: 0 29px 29px 29px;
+        .card p {
+            font-size: 15px;
         }
         
-        .card a {
+        .cards a {
             font-size: 13px;
             color: #22a2ec;
         }
@@ -92,32 +107,16 @@
         .card h4 {
             font-size: 18px;
             color: #262c2f;
-            margin-top: 31px;
-            margin-left: 29px;
-            margin-bottom: 20px;
         }
         
-        .cardtest_1 {
-            border: 1px solid #d6d6d6;
-            float: left;
-            margin-left: 43px;
-        }
-        
-        .cardtest_2 {
+        .card-border {
             border: 5px solid #d6d6d6;
-            float: left;
-            margin-left: 57px;
         }
         
-        .cardtest_2 h4 {
-            margin-top: 24px;
-        }
-        
-        .cardtest_3 {
+        .card-shadow {
+            border: none;
             border-radius: 5px;
             box-shadow: 0px 0px 29px 0px rgba(14, 14, 14, 0.4);
-            float: right;
-            margin-right: 48px;
         }
         
         .main-forma {
