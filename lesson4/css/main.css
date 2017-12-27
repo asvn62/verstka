@@ -209,3 +209,23 @@ h3 {
     font-size: 12px;
     margin-left: 43px;
 }
+
+.footer {
+    background-color: #22a2ec;
+}
+
+.copyright {}
+
+.button-square {
+    display: inline-block;
+    width: 148px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
