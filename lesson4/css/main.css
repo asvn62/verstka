@@ -84,15 +84,15 @@
         h1 {
             font-size: 28px;
             color: #272c2f;
+            margin-top: 50px;
+            margin-bottom: 30px;
         }
-        
-        .serv {}
         
         .card {
             width: 358px;
             float: left;
             border: 1px solid #d6d6d6;
-            padding: 0 33px 27px 30px;
+            padding: 26px 33px 23px 30px;
         }
         
         .card p {
@@ -109,12 +109,13 @@
         .card h4 {
             font-size: 18px;
             color: #262c2f;
-            padding: 29px 0 19px 29px;
+            margin-bottom: 17px;
         }
         
         .card-border {
             border: 5px solid #d6d6d6;
             margin-left: 51px;
+            padding-top: 22px;
         }
         
         .card-shadow {
@@ -122,17 +123,21 @@
             border-radius: 5px;
             box-shadow: 0px 0px 29px 0px rgba(14, 14, 14, 0.4);
             margin-left: 51px;
-        }
-        
-        .main-forma {
-            float: left;
-            margin-left: 43px;
+            padding-top: 27px;
+            padding-bottom: 28px;
         }
         
         h2 {
             font-size: 23px;
             font-weight: 700;
-            margin: 54px 43px 36px;
+        }
+        
+        .main {
+            margin: 0 43px;
+        }
+        
+        .main-forma {
+            float: left;
         }
         
         .text,
@@ -176,30 +181,31 @@
             border-radius: 10px;
             background-color: #184c6b;
             width: 760px;
-            height: 300px;
             float: left;
-            margin-left: 59px;
+            padding: 40px 44px 48px 39px;
+            margin-left: 50px;
         }
         
         h3 {
             color: #c1ddee;
             font-size: 21px;
-            margin-left: 39px;
-            margin-top: 43px;
+            margin-bottom: 20px;
         }
         
-        .main-card_text {
+        .main-card-text {
             float: left;
             width: 317px;
-            margin-left: 39px;
             color: #c1ddee;
-            line-height: 22px;
+            line-height: 1.4em;
         }
         
-        .main-card_picture {
-            float: left;
+        .main-card-picture {
+            float: right;
             color: #c1ddee;
-            margin-left: 60px;
+        }
+        
+        img {
+            margin-bottom: 10px;
         }
         
         .safety {
