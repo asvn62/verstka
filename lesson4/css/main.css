@@ -155,7 +155,8 @@
         
         .note {
             width: 335px;
-            height: 122px;
+            height: 102px;
+            padding-top: 20px;
         }
         
         .text,
@@ -227,7 +228,7 @@
             color: #ffffff;
             font-size: 13px;
             float: left;
-            margin-top: 10px;
+            margin-top: 8px;
         }
         
         .button {
@@ -263,7 +264,7 @@
             background: #fff;
             font-size: 12px;
             margin: 0;
-            padding-top: 12px;
+            padding-top: 10px;
             margin-left: 62px;
         }
         
@@ -271,5 +272,5 @@
             float: right;
             color: #ffffff;
             font-size: 13px;
-            margin-top: 10px;
+            margin-top: 8px;
         }
