@@ -166,6 +166,7 @@
         
         .form-button {
             background-color: #ebce0d;
+            border: none;
             width: 166px;
             height: 43px;
             color: #272c2f;
@@ -221,7 +222,7 @@
         
         .footer {
             background-color: #22a2ec;
-            padding: 15px 43px 16px;
+            padding: 20px 43px 16px;
         }
         
         .copyright {
@@ -253,9 +254,9 @@
         }
         
         .text-ground {
-            display: inline-block;
+            float: left;
             width: 229px;
-            height: 40px;
+            height: 35px;
             color: #22a2ec;
             border: 1px solid #fff;
             border-radius: 3px;
