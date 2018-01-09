@@ -1,0 +1,87 @@
+body {
+    font-family: Tahoma, Arial, serif;
+    padding: 0;
+    margin: 0;
+    color: #2f383b;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div,
+section,
+form,
+span,
+p,
+button {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #4e8598;
+    color: #fff;
+    padding: 54px 0 58px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 186px;
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer__title {
+    width: 600px;
+    font-size: 27px;
+    margin: 0 auto 30px;
+}
+
+.button {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 28px;
+    display: block;
+    border: 1px solid #fff;
+    width: 218px;
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 0;
+    margin: 0 auto;
+}
+
+.offer__button:hover {
+    background: #fff;
+    color: #4e8598;
+}
+
+.arrow {
+    display: block;
+    margin: 177px auto 0;
+}
