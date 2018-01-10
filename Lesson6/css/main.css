@@ -40,6 +40,10 @@ button {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
+
 .header {
     background-color: #4e8598;
     color: #fff;
@@ -84,4 +88,84 @@ button {
 .arrow {
     display: block;
     margin: 177px auto 0;
+}
+
+.section__title {
+    font-size: 26px;
+    margin-bottom: 88px;
+    text-align: center;
+}
+
+.mission {
+    display: block;
+    width: 405px;
+    float: left;
+}
+
+.mission__title {
+    font-size: 22px;
+}
+
+.mission__text {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.line-title:after {
+    content: '';
+    display: block;
+    width: 72px;
+    height: 3px;
+    background-color: #4e8598;
+    margin-top: 7px;
+}
+
+.merit {
+    display: block;
+    float: left;
+    width: 440px;
+    margin-left: 95px;
+}
+
+.merit__title {
+    font-size: 22px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills__item_bug {
+    background: url('../img/bug.png') no-repeat left;
+}
+
+.skills__item_bell {
+    background: url('../img/bell.png') no-repeat left;
+}
+
+.skills__item_storm {
+    background: url('../img/storm.png') no-repeat 7px;
+}
+
+.skills__item_camera {
+    background: url('../img/camera.png') no-repeat left;
+}
+
+.skills__title {
+    margin-left: 63px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4e8598;
+}
+
+.skills__item {
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.skills__text {
+    margin-left: 30px;
+    font-size: 15px;
+    color: #2f383b;
+    opacity: 0.48;
 }
