@@ -208,7 +208,7 @@
         .motive {
             width: 430px;
             text-align: center;
-            margin: 64px auto;
+            margin: 64px auto 0;
         }
         
         .motive__title {
