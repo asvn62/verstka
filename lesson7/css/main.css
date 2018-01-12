@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+div,
+section,
+form,
+span,
+p,
+button {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    background: url('../img/andrew-bg.png') no-repeat;
+    padding-top: 106px;
+    padding-bottom: 86px;
+}
+
+.logo {
+    align-items: flex-start;
+}
+
+.logo__icon {
+    width: 103px;
+    height: 132px;
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+    background: url('../img/logo-bg.png') no-repeat center;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.logo__title {
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 37px;
+}
+
+.topic {
+    width: 683px;
+}
+
+.topic__title {
+    font-size: 61px;
+    margin: 45px 0;
+}
+
+.topic__item {
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 19px;
+    font-weight: 300;
+    color: #000
+}
+
+.topic__text {
+    margin-left: 20px;
+}
