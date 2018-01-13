@@ -44,8 +44,8 @@ button {
 
 .header {
     background: url('../img/andrew-bg.png') no-repeat;
-    padding-top: 106px;
-    padding-bottom: 86px;
+    padding-top: 83px;
+    padding-bottom: 83px;
 }
 
 .logo {
@@ -76,7 +76,7 @@ button {
 
 .topic__title {
     font-size: 61px;
-    margin: 45px 0;
+    margin: 25px 0;
 }
 
 .topic__item {
@@ -89,4 +89,20 @@ button {
 
 .topic__text {
     margin-left: 20px;
+}
+
+.topic__button {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    width: 309px;
+    box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
+    background-color: #ffde00;
+    padding: 32px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    display: block;
+    margin-top: 56px;
 }
