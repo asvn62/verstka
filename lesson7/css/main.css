@@ -24,6 +24,13 @@ h6 {
     color: #000;
 }
 
+h2 {
+    font-size: 58px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
 div,
 section,
 form,
@@ -105,4 +112,117 @@ button {
     font-weight: 700;
     display: block;
     margin-top: 56px;
+}
+
+.reason__block {
+    justify-content: space-between;
+}
+
+.reason__stat {
+    width: 565px;
+    font-size: 22px;
+    padding: 85px 0 75px;
+}
+
+.reason__stat_title {
+    font-size: 58px;
+}
+
+.reason__note {
+    width: 467px;
+    background-color: #ededed;
+    padding-left: 50px;
+    padding-top: 75px;
+}
+
+.autor {
+    width: 230px;
+    margin-bottom: 40px;
+}
+
+.autor__about {
+    font-size: 17px;
+}
+
+.autor__name {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.merit {
+    margin-bottom: 17px;
+}
+
+.merit-left {
+    align-items: center;
+}
+
+.merit-right {
+    align-items: center;
+    margin-left: 37px;
+}
+
+.merit__digit {
+    font-size: 39px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.merit__text {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+.merit__ref {
+    font-size: 17px;
+    color: #000;
+    border-bottom: 1px dotted #5a5a5a;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.quaere {
+    background-color: #000;
+}
+
+.speech {
+    justify-content: space-between;
+}
+
+.speech__note_title {
+    font-size: 58px;
+    color: #fff;
+}
+
+.speech__note {
+    padding: 87px 0 68px;
+}
+
+.speech__note_text {
+    width: 560px;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.speech__price {
+    width: 467px;
+    background-color: #ffde00;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.speech__price_title {
+    display: block;
+    font-size: 72px;
+    color: #000000;
+}
+
+.speech__price_time {
+    font-size: 34px;
 }
