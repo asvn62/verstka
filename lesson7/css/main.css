@@ -233,12 +233,13 @@ button {
 }
 
 .motive {
-    background: url('../img/words.png') no-repeat left top 40%;
+    background: url('../img/words.png') no-repeat left top 43%;
+    padding: 107px 0 92px;
 }
 
 .motive__title {
     width: 585px;
-    margin: 107px 0 89px;
+    margin-bottom: 89px;
 }
 
 .list {
@@ -283,6 +284,12 @@ button {
     align-content: flex-start;
 }
 
+.about__me_item a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+
 .about__me_square {
     margin-right: 27px;
     height: 26px;
@@ -312,4 +319,36 @@ button {
 
 .affirm {
     margin-top: 4px;
+}
+
+.cause {
+    background-color: #000000;
+    padding: 83px 0 70px;
+}
+
+.cause__title {
+    color: #fff;
+    margin-bottom: 63px;
+}
+
+.cause__item {
+    margin-right: 40px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-content: flex-start;
+}
+
+.cause__text_color {
+    color: #ffde00;
+}
+
+.cause__img {
+    margin-right: 34px;
+}
+
+.cause__item p {
+    margin-top: 10px;
+    line-height: 1.5;
 }
