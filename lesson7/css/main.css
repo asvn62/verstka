@@ -105,7 +105,7 @@ button {
 
 .topic__button {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     width: 309px;
@@ -314,7 +314,7 @@ button {
 }
 
 .about__me_item:last-child {
-    margin-top: 55px;
+    margin-top: 70px;
 }
 
 .affirm {
@@ -387,17 +387,48 @@ button {
 .reg__text {
     font-size: 23px;
     font-weight: 700;
+    line-height: 1.5;
 }
 
-.reb__text_accent {
+.reg__text_accent {
     color: #ffde00;
     background-color: #000;
-    padding: 0 5px;
+    padding: 2px 5px;
+}
+
+.reg__form {
+    margin-top: 40px;
+}
+
+.reg__form_input {
+    width: 297px;
+    border: none;
+    box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
+    padding: 22px 15px 22px;
+    margin-right: 17px;
+    font-size: 18px;
+}
+
+.reg__form_btn {
+    width: 226px;
+    border: none;
+    box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
+    background-color: #ffde00;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
 }
 
 .reg__police {
     font-size: 12px;
     margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+}
+
+.fa {
+    margin-right: 8px;
 }
 
 .footer {
@@ -406,6 +437,7 @@ button {
     font-size: 13px;
     color: #fff;
     text-transform: uppercase;
+    letter-spacing: 1.04px;
 }
 
 .footer__item_police {
@@ -418,27 +450,4 @@ button {
 
 .expect__color {
     color: #ffde00;
-}
-
-.reg__form {
-    justify-content: space-between;
-    margin-top: 40px;
-}
-
-.reg__form_input {
-    width: 297px;
-    border: none;
-    box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
-}
-
-.reg__form_btn {
-    width: 226px;
-    border: none;
-    box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
-    background-color: #ffde00;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
-    padding: 25px;
 }
