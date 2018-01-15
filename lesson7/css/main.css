@@ -1,0 +1,444 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div,
+section,
+form,
+span,
+p,
+button {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    background: url('../img/andrew-bg.png') no-repeat;
+    padding-top: 83px;
+    padding-bottom: 83px;
+}
+
+.logo {
+    align-items: flex-start;
+}
+
+.logo__icon {
+    width: 103px;
+    height: 132px;
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+    background: url('../img/logo-bg.png') no-repeat center;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.logo__title {
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 37px;
+}
+
+.topic {
+    width: 683px;
+}
+
+.topic__title {
+    font-size: 61px;
+    margin: 25px 0;
+}
+
+.topic__item {
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 19px;
+    font-weight: 300;
+    color: #000
+}
+
+.topic__text {
+    margin-left: 20px;
+}
+
+.topic__button {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    width: 309px;
+    box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
+    background-color: #ffde00;
+    padding: 32px 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    display: block;
+    margin-top: 56px;
+}
+
+.reason__block {
+    justify-content: space-between;
+}
+
+.reason__stat {
+    width: 565px;
+    font-size: 22px;
+    padding: 85px 0 75px;
+}
+
+.reason__stat_title {
+    font-size: 58px;
+}
+
+.reason__note {
+    width: 467px;
+    background-color: #ededed;
+    padding-left: 50px;
+    padding-top: 75px;
+}
+
+.autor {
+    width: 230px;
+    margin-bottom: 40px;
+}
+
+.autor__about {
+    font-size: 17px;
+}
+
+.autor__name {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.merit {
+    margin-bottom: 17px;
+}
+
+.merit-left {
+    align-items: center;
+}
+
+.merit-right {
+    align-items: center;
+    margin-left: 37px;
+}
+
+.merit__digit {
+    font-size: 39px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.merit__text {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+.merit__ref {
+    font-size: 17px;
+    color: #000;
+    border-bottom: 1px dotted #5a5a5a;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.quaere {
+    background-color: #000;
+}
+
+.speech {
+    justify-content: space-between;
+}
+
+.speech__note_title {
+    font-size: 58px;
+    color: #fff;
+}
+
+.speech__note {
+    padding: 87px 0 68px;
+}
+
+.speech__note_text {
+    width: 560px;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.speech__price {
+    width: 467px;
+    background-color: #ffde00;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.speech__price_title {
+    display: block;
+    font-size: 72px;
+    color: #000000;
+}
+
+.speech__price_time {
+    font-size: 34px;
+}
+
+.motive {
+    background: url('../img/words.png') no-repeat left top 43%;
+    padding: 107px 0 92px;
+}
+
+.motive__title {
+    width: 585px;
+    margin-bottom: 89px;
+}
+
+.list {
+    justify-content: space-between;
+}
+
+.list__article {
+    width: 250px;
+    margin-left: 28px;
+    font-size: 18px;
+}
+
+.list__article_title {
+    margin-bottom: 15px;
+}
+
+.list__point {
+    width: 95px;
+    height: 95px;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    border: 6px solid #000;
+    padding-top: 17px;
+}
+
+.about {
+    margin-top: 272px;
+    justify-content: space-between;
+}
+
+.about__me {
+    width: 600px;
+}
+
+.about__me_title {
+    margin-bottom: 56px;
+}
+
+.about__me_item {
+    margin-bottom: 34px;
+    align-content: flex-start;
+}
+
+.about__me_item a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+
+.about__me_square {
+    margin-right: 27px;
+    height: 26px;
+    padding-top: 3px;
+}
+
+.about__me_text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.about__me_remark {
+    display: block;
+    color: #646464;
+    font-size: 15px;
+}
+
+.about__me_affirm {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about__me_item:last-child {
+    margin-top: 55px;
+}
+
+.affirm {
+    margin-top: 4px;
+}
+
+.cause {
+    background-color: #000000;
+    padding: 83px 0 70px;
+}
+
+.cause__title {
+    color: #fff;
+    margin-bottom: 63px;
+}
+
+.cause__item {
+    margin-right: 40px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-content: flex-start;
+}
+
+.cause__text_color {
+    color: #ffde00;
+}
+
+.cause__img {
+    margin-right: 34px;
+}
+
+.cause__item p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.where__item {
+    margin-right: 16px;
+}
+
+.way {
+    padding: 25px 0;
+}
+
+.way__title {
+    font-size: 37px;
+}
+
+.way__title_color {
+    width: 210px;
+    background-color: #ffde00;
+    margin-left: 20px;
+    padding: 25px 28px;
+}
+
+.where {
+    margin-top: 10px;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-left: 31px;
+}
+
+.reg {
+    padding: 80px 0;
+    background-color: #ffde00;
+}
+
+.reg__text {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.reb__text_accent {
+    color: #ffde00;
+    background-color: #000;
+    padding: 0 5px;
+}
+
+.reg__police {
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.footer {
+    background-color: #000;
+    padding: 65px 0;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer__item_police {
+    margin: 0 135px 0 98px;
+}
+
+.footer__item_expect {
+    font-weight: 700;
+}
+
+.expect__color {
+    color: #ffde00;
+}
+
+.reg__form {
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.reg__form_input {
+    width: 297px;
+    border: none;
+    box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
+}
+
+.reg__form_btn {
+    width: 226px;
+    border: none;
+    box-shadow: 0 1px 54px rgba(0, 0, 0, 0.2);
+    background-color: #ffde00;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 25px;
+}
