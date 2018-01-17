@@ -20,6 +20,13 @@
 }
 
 @font-face {
+    font-family: "MuseoSansCyrlIt 300";
+    src: url("../font/MuseoSansCyrl 300 Italic.otf") format("opentype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: "MuseoSansCyrl 900";
     src: url("../font/MuseoSansCyrl 900.otf") format("opentype");
     font-style: normal;
@@ -54,15 +61,17 @@ h6 {
 }
 
 h2 {
-    font-size: 58px;
+    font-family: "Natasha";
+    font-size: 37px;
     font-weight: 700;
     color: #000000;
-    text-transform: uppercase;
 }
 
-h5 {
-    font-size: 18px;
+h3 {
+    font-family: "Natasha";
+    font-size: 22px;
     font-weight: 700;
+    color: #22241b;
 }
 
 div,
@@ -152,4 +161,113 @@ button {
 
 .fa {
     line-height: 40px;
+}
+
+.about {
+    padding-top: 87px;
+}
+
+.about__title {
+    margin-bottom: 76px;
+}
+
+.context {
+    justify-content: space-between;
+}
+
+.context__descript_title {
+    margin-bottom: 40px;
+}
+
+.context__descript {
+    width: 433px;
+}
+
+.context__descript_text {
+    font-family: "MuseoSansCyrl 300";
+    font-size: 15px;
+    color: #22241b;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+    margin-bottom: 17px;
+}
+
+.context__merit {
+    width: 461px;
+}
+
+.context__merit_progress {
+    margin-bottom: 68px;
+}
+
+.progress {
+    margin-top: 47px;
+    justify-content: space-around;
+}
+
+.progress__item {
+    display: inline-block;
+    position: relative;
+    width: 112px;
+    text-align: center;
+}
+
+.progress__item_number {
+    display: inline-block;
+    position: absolute;
+    left: 47px;
+    top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.first {
+    left: 47px;
+}
+
+.second {
+    left: 41px;
+}
+
+.third {
+    left: 51px;
+}
+
+.progress__item_note {
+    font-family: "MuseoSansCyrl 100";
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.wraper__link {
+    justify-content: space-between;
+    align-content: center;
+}
+
+.ref {
+    padding-top: 10px;
+}
+
+.ref__item {
+    margin-bottom: 17px;
+}
+
+.ref__item a {
+    font-family: "MuseoSansCyrl 300";
+    font-size: 14px;
+    color: #204d15;
+    text-decoration: none;
+    border-bottom: 1px solid #204d15;
+}
+
+.note__icon {
+    padding-top: 23px;
+}
+
+.note__text {
+    padding-top: 46px;
+    font-family: "MuseoSansCyrlIt 300";
+    font-size: 14px;
+    color: #22241b;
+    opacity: 0.72;
 }
