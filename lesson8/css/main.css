@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Natasha";
+    src: url("../font/Natasha.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MuseoSansCyrl 100";
+    src: url("../font/MuseoSansCyrl 100.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MuseoSansCyrl 300";
+    src: url("../font/MuseoSansCyrl 300.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MuseoSansCyrl 900";
+    src: url("../font/MuseoSansCyrl 900.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div,
+section,
+form,
+span,
+p,
+button {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    background: url("../img/ewbsewstepa-dustin-scarpitti.png") no-repeat;
+}
+
+.header__container {
+    padding: 57px 0 82px;
+    color: #fff;
+}
+
+.wrap-nav {
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    font-family: "MuseoSansCyrl 900";
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.logo__prefix {
+    font-family: "MuseoSansCyrl 100";
+}
+
+.nav {
+    width: 321px;
+    justify-content: space-between;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "MuseoSansCyrl 900";
+}
+
+.mail {
+    font-size: 13px;
+    font-family: "MuseoSansCyrl 300";
+}
+
+.header__title {
+    width: 750px;
+    margin: 295px auto 265px;
+    font-family: "Natasha";
+    font-size: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 55px;
+    letter-spacing: 5.88px;
+    text-align: center;
+}
+
+.header__title_prefix {
+    font-family: "MuseoSansCyrl 100";
+    font-size: 29px;
+}
+
+.arrow__btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.fa {
+    line-height: 40px;
+}
