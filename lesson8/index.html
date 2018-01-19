@@ -14,26 +14,26 @@
 <body>
     <header class="header" id="header">
         <div class="header__container container ">
-            <div class="wrap-nav flex">
+            <div class="nav flex">
                 <div class="logo">
                     <span class="logo__prefix">My</span>Portfolio
                 </div>
-                <ul class="nav flex">
-                    <li class="nav__item">Обо мне</li>
-                    <li class="nav__item">Навыки</li>
-                    <li class="nav__item">Работы</li>
+                <ul class="menu flex">
+                    <li class="menu__item">Обо мне</li>
+                    <li class="menu__item">Навыки</li>
+                    <li class="menu__item">Работы</li>
                 </ul>
                 <div class="mail">
                     info@myname.com
                 </div>
             </div>
-            <h1 class="header__title">Дело, которым я живу
+            <h1 class="header__title">Дело, которым я живу <br>
                 <span class="header__title_prefix">верстка & frontend</span></h1>
-            <a href="#" class="arrow__btn"><i class=" fa fa-long-arrow-down"></i></a>
+            <a href="#about" class="arrow__btn"><i class=" fa fa-long-arrow-down"></i></a>
         </div>
     </header>
     <!-- /#header.header -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h2 class="about__title">
                 Обо мне
@@ -61,27 +61,25 @@
                         </h3>
                         <ul class="progress flex">
                             <li class="progress__item">
-                                <img src="img/square .png" alt="square">
+                                <img src="img/square .png" alt="square" class="square">
                                 <span class="progress__item_number first">75</span>
                                 <span class="progress__item_note">Реализованных проектов</span>
                             </li>
                             <li class="progress__item">
-                                <img src="img/square .png" alt="square">
+                                <img src="img/square .png" alt="square" class="square">
                                 <span class="progress__item_number second">154</span>
                                 <span class="progress__item_note">
                                         Положительных отзыва
                                 </span>
                             </li>
                             <li class="progress__item">
-                                <img src="img/square .png" alt="square">
+                                <img src="img/square .png" alt="square" class="square">
                                 <span class="progress__item_number third">8</span>
                                 <span class="progress__item_note">
                                         Лет <br> опыта
                                 </span>
                             </li>
                         </ul>
-
-
                     </div>
                     <div class="context__merit_contact">
                         <h3>Связь</h3>
@@ -99,22 +97,27 @@
                             </div>
                             <span class="note__text">Не стесняйтесь, пишите</span>
                         </div>
-
-
                     </div>
-
-
                 </div>
             </div>
-
         </div>
-
     </section>
     <!-- /.about -->
     <section class="skills">
         <div class="container">
-
+            <h2 class="skills__title"> Навыки</h2>
+            <ul class="skill flex">
+                <li class="skill__item "><span class="skill__item_rate">98%</span><span class="skill__item_name">Photoshop</span>
+                </li>
+                <li class="skill__item"><span class="skill__item_rate">99%</span><span class="skill__item_name">html5</span>
+                </li>
+                <li class="skill__item"><span class="skill__item_rate">100%</span><span class="skill__item_name">CSS3</span>
+                </li>
+                <li class="skill__item"><span class="skill__item_rate">0%</span><span class="skill__item_name">Лень</span>
+                </li>
+            </ul>
         </div>
+
 
     </section>
     <!-- /.skills -->
