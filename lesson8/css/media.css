@@ -25,6 +25,7 @@
     }
     .skill__item {
         margin-bottom: 20px;
+        width: 50%;
     }
 }
 
@@ -41,12 +42,25 @@
     .context {
         flex-direction: column;
     }
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
     .context__descript {
         width: auto;
     }
     .context__merit {
         width: auto;
         margin-top: 40px;
+    }
+    .wrap__link {
+        padding-left: 70px;
+        ;
+    }
+    .note {
+        margin-left: 50px;
     }
     .note__icon {
         margin-left: 60px;
@@ -57,10 +71,13 @@
         padding-top: 46px;
     }
     .produce__works {
-        flex-wrap: wrap;
+        display: block;
     }
     .works__item {
-        margin-bottom: 30px;
+        margin: 0 auto 30px;
+    }
+    .footer {
+        text-align: center;
     }
 }
 
@@ -85,16 +102,37 @@
         font-size: 10px;
     }
     .progress {
-        flex-direction: column;
-        padding-left: 100px;
+        display: block;
     }
     .progress__item {
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
     }
     .square {
         margin: 0;
     }
     .wrap__link {
-        flex-wrap: wrap;
+        display: block;
+        padding: 0;
+    }
+    .ref {
+        text-align: center;
+    }
+    .note {
+        margin: 0;
+        text-align: center;
+    }
+    .note__icon {
+        margin: 0;
+    }
+    .note__text {
+        display: block;
+        padding-top: 20px;
+    }
+    .skill {
+        display: block;
+        widows: 100%;
+    }
+    .skill__item {
+        margin: 0 auto 30px;
     }
 }
