@@ -1,23 +1,102 @@
-@font-face {
-    font-family: 'Museo Sans 100';
-    src: url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.eot');
-    src: url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.woff') format('woff'), url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Museo Sans 300';
-    src: url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-100.eot');
-    src: url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.woff') format('woff'), url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Museo Sans 700';
-    src: url('../fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.eot');
-    src: url('../fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.woff2') format('woff'), url('../fonts/MuseoSansCyrl-700/Museo Sans Cyrl 700.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'Museo Sans 100';
+        src: url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.eot');
+        src: url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.woff') format('woff'), url('../fonts/MuseoSansCyrl-100/MuseoSansCyrl-100.ttf') format('truetype');
+        font-weight: 100;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Museo Sans 300';
+        src: url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-100.eot');
+        src: url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.woff') format('woff'), url('../fonts/MuseoSansCyrl-300/MuseoSansCyrl-300.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Museo Sans 700';
+        src: url('../fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.eot');
+        src: url('../fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-700/MuseoSansCyrl-700.woff2') format('woff'), url('../fonts/MuseoSansCyrl-700/Museo Sans Cyrl 700.ttf') format('truetype');
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    body {
+        font-family: 'Museo Sans 300', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul,
+    li {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Museo Sans 700';
+        color: #081d42;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    div,
+    section,
+    form,
+    span,
+    p,
+    button {
+        box-sizing: border-box;
+    }
+    
+    a,
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .nav {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    
+    .menu {
+        margin-left: 125px;
+        padding-top: 20px;
+    }
+    
+    .menu__item {
+        margin-right: 32px;
+    }
+    
+    .menu__item a {
+        font-size: 17px;
+        font-family: 'Museo Sans 700';
+        color: #3f4b60;
+    }
+    
+    .menu__button {
+        width: 156px;
+        height: 35px;
+        background-color: #1cb883;
+        font-family: 'Museo Sans 700';
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+        display: block;
+        padding-top: 7px;
+        margin-top: 14px;
+        margin-left: 23px;
+    }
+    
+    .menu__button i {
+        margin-right: 9px;
+    }
