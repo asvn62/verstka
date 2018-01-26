@@ -63,6 +63,16 @@
         text-decoration: none;
     }
     
+    .header {
+        background: url('../img/ssha-chikago-megapolis.jpg')
+    }
+    
+    .container__nav {
+        border-top: 4px solid rgba(88, 100, 122, 0.21);
+        background-color: #bfc2c8;
+        opacity: 0.8;
+    }
+    
     .nav {
         width: 1170px;
         margin: 0 auto;
@@ -99,4 +109,15 @@
     
     .menu__button i {
         margin-right: 9px;
+    }
+    
+    .descript__title {
+        font-size: 58px;
+    }
+    
+    .descript__note {
+        display: block;
+        width: 453px;
+        font-size: 29px;
+        font-family: 'Museo Sans 100';
     }
