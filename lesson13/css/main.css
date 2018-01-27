@@ -47,7 +47,6 @@
     h6 {
         font-family: 'Museo Sans 700';
         color: #081d42;
-        text-transform: uppercase;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -119,6 +118,7 @@
     .descript__title {
         font-size: 58px;
         margin-top: 107px;
+        text-transform: uppercase;
     }
     
     .descript__note {
@@ -153,4 +153,76 @@
     
     .fa-telegram {
         color: #25a3d4;
+    }
+    /* Section trust */
+    
+    .trust {
+        padding-top: 60px;
+        padding-bottom: 83px;
+    }
+    
+    .trust__title {
+        font-size: 29px;
+        text-align: center;
+        margin-bottom: 41px;
+    }
+    
+    .offer__item {
+        width: 363px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .offer__item h3 {
+        font-size: 21px;
+        margin: 24px 0 16px;
+    }
+    
+    .trust__button {
+        display: block;
+        width: 173px;
+        height: 44px;
+        background-color: #1cb883;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        margin: 78px auto;
+    }
+    
+    .trust__advantage {
+        width: 363px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .advantage__item h3 {
+        font-family: 'Museo Sans 100';
+        margin-bottom: 16px;
+    }
+    
+    .title__color {
+        color: #b81c31;
+    }
+    /* Section Mission */
+    
+    .mission {
+        background-color: #58647a;
+        padding-top: 43px;
+    }
+    
+    .consult__title {
+        width: 70%;
+        font-size: 23px;
+        opacity: 0.4;
+        color: #fff;
+        border-bottom: 4px solid #fff;
+        padding-bottom: 9px;
+        margin-bottom: 22px;
+    }
+    
+    .consult__descript {
+        font-size: 15px;
+        opacity: 0.67;
+        color: #fff;
     }
