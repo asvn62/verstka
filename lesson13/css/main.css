@@ -97,7 +97,7 @@
         color: #3f4b60;
     }
     
-    .menu__button {
+    .button__phone {
         width: 156px;
         height: 35px;
         background-color: #1cb883;
@@ -107,12 +107,15 @@
         text-align: center;
         display: block;
         padding-top: 7px;
-        margin-top: 14px;
-        margin-left: 7px;
     }
     
-    .menu__button i {
+    .button__phone i {
         margin-right: 9px;
+    }
+    
+    .menu__button {
+        margin-top: 14px;
+        margin-left: 7px;
     }
     
     .descript__title {
@@ -207,8 +210,9 @@
     /* Section Mission */
     
     .mission {
-        background-color: #58647a;
-        padding-top: 43px;
+        background: url('../img/bg-section.jpg') no-repeat center / cover;
+        padding-top: 3%;
+        padding-bottom: 2%;
     }
     
     .consult__title {
@@ -292,14 +296,14 @@
     
     .refer {
         padding: 45px 0 87px;
-        background-color: #58647a;
+        background-color: #3a4456;
     }
     
     .refer__title {
         font-size: 19px;
         color: #fff;
         margin-bottom: 20px;
-        margin-top: 73px;
+        margin-top: 53px;
         opacity: 0.66;
     }
     
@@ -307,4 +311,64 @@
         font-size: 14px;
         color: #fff;
         opacity: 0.46;
+    }
+    /* Footer */
+    
+    .footer {
+        background-color: #1f2531;
+        font-family: 'Museo Sans 100';
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    .address {
+        padding-top: 27px;
+        line-height: 1.4;
+        opacity: 0.52;
+    }
+    
+    .footer__interest {
+        padding-top: 27px;
+        opacity: 0.52;
+    }
+    
+    .footer__icon {
+        float: left;
+        width: 25px;
+        height: 25px;
+        border: 1px solid #fff;
+        padding-top: 1px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .footer__author {
+        display: block;
+        font-size: 10px;
+        margin-left: 33px;
+        margin-top: -2px;
+        line-height: 1.4;
+    }
+    
+    .footer__name {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    
+    .copuright {
+        margin-top: 27px;
+    }
+    
+    .copuright__lab {
+        font-family: 'Museo Sans 700';
+    }
+    
+    .copuright__ref {
+        display: block;
+        color: #fff;
+        text-decoration: underline;
+    }
+    
+    .footer__button {
+        margin-top: 60px;
     }
