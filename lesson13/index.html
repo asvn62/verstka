@@ -10,30 +10,34 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container-fluid container__nav">
-            <nav class="nav ">
-                <div class="nav__logo">
-                    <img src="img/logo.png" alt="Lab Consulting">
-                </div>
-                <ul class="menu d-flex">
-                    <li class="menu__item">
-                        <a href="#">О компании</a></li>
-                    <li class="menu__item">
-                        <a href="#">Пресс-центр</a></li>
-                    <li class="menu__item">
-                        <a href="#">Услуги</a></li>
-                    <li class="menu__item">
-                        <a href="#">Отрасли</a></li>
-                    <li class="menu__item">
-                        <a href="#">Контакты</a></li>
-                </ul>
-                <a class="menu__button button__phone" href="#"><i class="fa fa-phone"></i> Заказать звонок</a>
-            </nav>
+            <div class="container">
+                <nav class="nav d-flex">
+                    <div class="nav__logo">
+                        <img src="img/logo.png" alt="Lab Consulting">
+                    </div>
+                    <ul class="menu d-flex">
+                        <li class="menu__item">
+                            <a href="#">О компании</a></li>
+                        <li class="menu__item">
+                            <a href="#">Пресс-центр</a></li>
+                        <li class="menu__item">
+                            <a href="#">Услуги</a></li>
+                        <li class="menu__item">
+                            <a href="#">Отрасли</a></li>
+                        <li class="menu__item">
+                            <a href="#">Контакты</a></li>
+                    </ul>
+                    <a class="menu__button button__phone" href="#"><i class="fa fa-phone"></i> Заказать звонок</a>
+                </nav>
+            </div>
         </div>
         <div class="container">
             <div class="descript">
@@ -163,7 +167,7 @@
                                 aut odit aut fugit, sed quia consequuntur magni dolores.
                             </p>
 
-                            <a href="#" class="consult__button">Узнать больше</a>
+
                         </div>
                         <div class="consult__descript_right">
                             <p>
@@ -174,6 +178,7 @@
                             </p>
                         </div>
                     </div>
+                    <a href="#" class="consult__button">Узнать больше</a>
                 </div>
                 <div class="col-lg-3">
                     <h3 class="news__title">
@@ -204,7 +209,7 @@
     <section class="refer">
         <div class="container">
             <div class="row ">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm">
                     <h4 class="refer__title">О компании</h4>
                     <ul class="about">
                         <li class="refer__item"><a href="#">Видение, миссия и ценности</a>
@@ -219,7 +224,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-4 offset-lg-1">
+                <div class="col-lg-4 offset-lg-1 col-md-4 col-sm">
                     <h4 class="refer__title">Пресс – центр</h4>
                     <ul class="press">
                         <li class="refer__item"><a href="#">Новости</a>
@@ -232,7 +237,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm">
                     <h4 class="refer__title">Услуги</h4>
                     <ul class="services">
                         <li class="refer__item"><a href="#">Legal (Юридическое сопровождение)</a>
@@ -245,7 +250,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm">
                     <h4 class="refer__title">Отрасли</h4>
                     <ul class="industry">
                         <li class="refer__item"><a href="#">Аграрный сектор</a>
@@ -262,7 +267,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-4 offset-lg-1">
+                <div class="col-lg-4 offset-lg-1 col-md-4 col-sm">
                     <h4 class="refer__title">Образовательный центр</h4>
                     <ul class="education">
                         <li class="refer__item"><a href="#">Про Образовательный Центр</a>
@@ -275,7 +280,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm">
                     <h4 class="refer__title">Соц. предпринимательство</h4>
                     <ul class="social">
                         <li class="refer__item"><a href="#">Социальная миссия</a>
@@ -296,10 +301,10 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm">
                     <img src="img/logo-footer.png" alt="Lab Consulting" class="logo">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-4">
                     <div class="address">
                         <p>
                             Вы хотите сотрудничать с нами? У Вас есть идеи или предложения? Свяжитесь с нами прямо сейчас!
@@ -309,9 +314,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-3 col-sm-4">
                     <div class="footer__interest">
-                        <span class="footer__icon">А</span> <span class="footer__author">Дизайн и разработка <span class="footer__name">Андрей Гаврилов</span></span>
+                        <span class="footer__icon">А</span> <span class="footer__author">Дизайн и разработка <br> <span class="footer__name">Андрей Гаврилов</span></span>
                         <div class="copuright">
                             © Все права защищены <br>
                             <span class="copuright__lab">LAB Consulting</span>
@@ -319,7 +324,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 offset-lg-1">
+                <div class="col-lg-2 offset-lg-1 col-md-6 offset-md-3 col-sm-4">
                     <a class="footer__button button__phone" href="#"><i class="fa fa-phone"></i> Заказать звонок</a>
                 </div>
             </div>

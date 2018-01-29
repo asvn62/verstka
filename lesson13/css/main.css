@@ -73,12 +73,11 @@
     
     .container__nav {
         border-top: 4px solid rgba(88, 100, 122, 0.21);
-        background: url('../img/bg-nav.png');
+        background: url('../img/bg-nav.png') center / cover;
         padding: 16px 0 9px;
     }
     
     .nav {
-        width: 1140px;
         margin: 0 auto;
     }
     
@@ -171,7 +170,7 @@
     }
     
     .offer__item {
-        width: 363px;
+        width: auto;
         font-size: 14px;
         text-align: center;
     }
@@ -194,7 +193,7 @@
     }
     
     .trust__advantage {
-        width: 363px;
+        width: auto;
         font-size: 14px;
         text-align: center;
     }

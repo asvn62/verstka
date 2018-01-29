@@ -1,0 +1,72 @@
+@media screen and (max-width: 992px) {
+        .menu {
+            margin: 20px auto;
+        }
+        .menu__button {
+            margin: 14px auto;
+        }
+        .trust__offer {
+            margin-bottom: 35px;
+        }
+    }
+    
+    .news__title {
+        margin-top: 25px;
+    }
+    
+    .footer__interest {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        margin: 20px 1.5%;
+    }
+    
+    .menu__item {
+        margin-right: 3.9%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .menu {
+        flex-direction: column;
+    }
+    
+    .descript__title {
+        font-size: 38px;
+    }
+    
+    .descript__note {
+        width: auto;
+        font-size: 19px;
+    }
+    
+    .trust__button {
+        margin: 50px auto;
+    }
+    
+    .consult__descript {
+        flex-direction: column;
+    }
+    
+    .consult__descript_right {
+        margin: 0;
+    }
+    
+    .consult__button {
+        margin-left: 25%;
+    }
+    
+    .news__title {
+        margin-top: 45px;
+    }
+    
+    .footer__button {
+        margin: 20px auto;
+    }
+}
