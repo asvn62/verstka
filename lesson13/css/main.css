@@ -483,3 +483,39 @@
             border: 2px solid #b81c31;
             padding: 12px;
         }
+        /* section .advantage */
+        
+        .advantage {
+            padding-top: 56px;
+        }
+        
+        .advantage__title {
+            font-size: 29px;
+            letter-spacing: 0.58px;
+            margin-bottom: 32px;
+        }
+        
+        .advantage__descript {
+            font-size: 15px;
+            color: #404048;
+        }
+        
+        .advantage__weighty p {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        
+        .advantage_scales {
+            margin-top: 5px;
+        }
+        
+        .advantage__weighty_item {
+            border-bottom: 1px solid#e4e5e7;
+            margin-top: 37px;
+            padding-bottom: 33px;
+        }
+        
+        .advantage__weighty_item:first-child {
+            border-top: 1px solid#e4e5e7;
+            padding-top: 35px;
+        }
