@@ -555,6 +555,10 @@ a:hover {
 
 /* Page Services */
 
+..services__item {
+    margin-left: 50px;
+}
+
 .services__item a {
     font-size: 13px;
     font-family: 'Museo Sans 300';
