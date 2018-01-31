@@ -486,13 +486,15 @@ a:hover {
     padding: 12px;
 }
 
+.page__nav_item {
+    border: 2px solid #fafafb;
+    padding: 12px;
+}
+
 .page__nav_item a {
     font-size: 16px;
     color: #a1a6af;
     font-family: 'Museo Sans 700';
-    border: 2px solid #b81c31;
-    padding: 12px;
-    border: none;
 }
 
 .page__nav_item a:hover {
