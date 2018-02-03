@@ -614,3 +614,80 @@ a:hover {
 .cat__item a:hover {
     text-decoration: underline;
 }
+
+
+/* section .content */
+
+.content {
+    padding: 50px 0 54px;
+}
+
+.article__title {
+    font-size: 29px;
+    letter-spacing: 0.58px;
+    margin: 10px 0 30px;
+}
+
+.article__text {
+    font-size: 15px;
+    color: #404048;
+    letter-spacing: 0.3px;
+}
+
+.app {
+    width: 75%;
+    border: 1px solid #e3e4e6;
+    border-radius: 5px;
+    padding: 25px 120px 30px 30px;
+    background: url('../img/conference-call-02-256.png') no-repeat 98% 85%;
+}
+
+.app__title {
+    color: #414449;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    margin-bottom: 17px;
+}
+
+.app__phone {
+    font-family: 'Museo Sans 700';
+    color: #585f6b;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    margin-left: 17px;
+}
+
+.app__btn {
+    color: #b81c31;
+}
+
+.app__note {
+    width: 223px;
+    display: block;
+    font-size: 12px;
+    color: #888d95;
+    margin-top: 17px;
+}
+
+.sidebar {
+    background-color: #fafafb;
+}
+
+.navi__title {
+    font-size: 18px;
+    color: #58647a;
+    opacity: 0.68;
+}
+
+.navi {}
+
+.navi__item {
+    border-bottom: 1px solid #dfdfe8;
+    padding: 13px 0;
+}
+
+.navi__item a {
+    font-family: 'Museo Sans 700';
+    font-size: 15px;
+    color: #747487;
+}
