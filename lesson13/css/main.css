@@ -619,13 +619,13 @@ a:hover {
 /* section .content */
 
 .content {
-    padding: 50px 0 54px;
+    padding-bottom: 5px;
 }
 
 .article__title {
     font-size: 29px;
     letter-spacing: 0.58px;
-    margin: 10px 0 30px;
+    margin: 60px 0 30px;
 }
 
 .article__text {
@@ -671,23 +671,51 @@ a:hover {
 
 .sidebar {
     background-color: #fafafb;
+    padding-top: 53px;
 }
 
 .navi__title {
     font-size: 18px;
     color: #58647a;
     opacity: 0.68;
+    margin-bottom: 44px;
+    margin-left: 27px;
 }
 
-.navi {}
+.navi {
+    margin-bottom: 60px;
+}
 
 .navi__item {
     border-bottom: 1px solid #dfdfe8;
     padding: 13px 0;
+    padding-left: 50px;
+    position: relative;
+}
+
+.navi__item::before {
+    content: '';
+    width: 11px;
+    height: 11px;
+    background: #aeaeb9;
+    position: absolute;
+    left: 27px;
+    top: 19px;
+}
+
+.navi__item:first-child {
+    border-top: 1px solid #dfdfe8;
 }
 
 .navi__item a {
     font-family: 'Museo Sans 700';
     font-size: 15px;
     color: #747487;
+}
+
+.review__title {
+    font-size: 18px;
+    opacity: 0.68;
+    color: #58647a;
+    margin-left: 27px;
 }
