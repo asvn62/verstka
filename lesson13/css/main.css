@@ -719,3 +719,23 @@ a:hover {
     color: #58647a;
     margin-left: 27px;
 }
+
+
+/* Page contacts */
+
+.window {
+    padding: 22px 30px;
+    background-color: rgba(124, 132, 147, 0.75)
+}
+
+.win__header {
+    border-bottom: 2px solid #9aa1ac;
+}
+
+.win__social {
+    margin: 0;
+}
+
+.win__social .fa {
+    color: #fff;
+}
