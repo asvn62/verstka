@@ -724,18 +724,54 @@ a:hover {
 /* Page contacts */
 
 .window {
+    width: 470px;
     padding: 22px 30px;
-    background-color: rgba(124, 132, 147, 0.75)
+    background-color: rgba(124, 132, 147, 0.65);
+    color: #fff;
+}
+
+.win__title {
+    font-size: 21px;
+    color: #fff;
 }
 
 .win__header {
     border-bottom: 2px solid #9aa1ac;
+    padding-bottom: 18px;
 }
 
 .win__social {
     margin: 0;
 }
 
-.win__social .fa {
+.win__social_item {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.win__social i {
     color: #fff;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.addr__item {
+    width: 180px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.fa-location-arrow {
+    margin-top: 3px;
+}
+
+.addr__wr {
+    margin-left: 8px;
+}
+
+.context {
+    width: 180px;
+    font-size: 12px;
 }
