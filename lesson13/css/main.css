@@ -555,7 +555,7 @@ a:hover {
 
 /* Page Services */
 
-..services__item {
+.services__item {
     margin-left: 50px;
 }
 
@@ -718,6 +718,24 @@ a:hover {
     opacity: 0.68;
     color: #58647a;
     margin-left: 27px;
+}
+
+.review__slider_item {}
+
+.review__note {
+    margin-top: 20px;
+}
+
+.review__name {
+    font-family: 'Museo Sans 700';
+    font-size: 15px;
+    color: #747487;
+}
+
+.review__note_text {
+    font-size: 13px;
+    color: #404048;
+    padding: 17px 45px 0;
 }
 
 
