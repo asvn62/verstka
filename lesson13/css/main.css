@@ -66,6 +66,13 @@ a:hover {
     text-decoration: none;
 }
 
+button,
+button:hover,
+button:active,
+button:focus {
+    outline: none;
+}
+
 .header {
     background: url('../img/ssha-chikago-megapolis.jpg') no-repeat center / cover;
     padding-bottom: 157px;
@@ -640,6 +647,7 @@ a:hover {
     border-radius: 5px;
     padding: 25px 120px 30px 30px;
     background: url('../img/conference-call-02-256.png') no-repeat 98% 85%;
+    margin-top: 30px;
 }
 
 .app__title {
@@ -718,9 +726,36 @@ a:hover {
     opacity: 0.68;
     color: #58647a;
     margin-left: 27px;
+    margin-bottom: 41px;
 }
 
-.review__slider_item {}
+.review__slider {
+    position: relative;
+    padding-bottom: 105px;
+}
+
+.slick-arrow {
+    position: absolute;
+    font-size: 25px;
+    color: #404048;
+    border: none;
+    background: none;
+}
+
+.slick-arrow:hover {
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 32px;
+    top: 55px;
+    z-index: 99;
+}
+
+.slick-next {
+    right: 32px;
+    top: 55px;
+}
 
 .review__note {
     margin-top: 20px;
@@ -736,6 +771,31 @@ a:hover {
     font-size: 13px;
     color: #404048;
     padding: 17px 45px 0;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    margin-top: 26px;
+}
+
+.slick-dots li {
+    margin-right: 18px;
+}
+
+.slick-dots li button {
+    width: 11px;
+    height: 11px;
+    background: #bdc6d5;
+    display: block;
+    border: none;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+    background: #8b9ab7;
 }
 
 
