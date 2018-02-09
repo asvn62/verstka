@@ -559,6 +559,28 @@ button:focus {
     margin-bottom: 43px;
 }
 
+.photo__item {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.photo__item:hover {
+    outline: 6px solid #9a97a7;
+}
+
+.photo__item:hover:after {
+    content: "\f065";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 29px;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
 
 /* Page Services */
 
