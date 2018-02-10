@@ -10,6 +10,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="css/themes/simple.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
@@ -18,24 +20,31 @@
 <body>
     <div class="container-fluid container__nav">
         <div class="container">
-            <nav class="nav d-flex">
-                <div class="nav__logo">
-                    <img src="img/logo.png" alt="Lab Consulting">
+            <div class="row">
+                <div class="col-lg-4 col-sm-9">
+                    <img src="img/logo.png" alt="Lab Consulting" class="nav__logo">
                 </div>
-                <ul class="menu d-flex">
-                    <li class="menu__item">
-                        <a href="about.html">О компании</a></li>
-                    <li class="menu__item">
-                        <a href="#">Пресс-центр</a></li>
-                    <li class="menu__item">
-                        <a href="services.html">Услуги</a></li>
-                    <li class="menu__item">
-                        <a href="#">Отрасли</a></li>
-                    <li class="menu__item">
-                        <a href="contacts.html">Контакты</a></li>
-                </ul>
-                <a class="menu__button button__phone" href="#"><i class="fa fa-phone"></i> Заказать звонок</a>
-            </nav>
+                <div class="col-lg-6 d-none d-sm-block menu__collaps">
+                    <ul class="menu d-flex justify-content-between">
+                        <li class="menu__item">
+                            <a href="about.html">О компании</a></li>
+                        <li class="menu__item">
+                            <a href="#">Пресс-центр</a></li>
+                        <li class="menu__item">
+                            <a href="services.html">Услуги</a></li>
+                        <li class="menu__item">
+                            <a href="#">Отрасли</a></li>
+                        <li class="menu__item">
+                            <a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-sm-2">
+                    <a class="menu__button button__phone" href="#"><i class="fa fa-phone"></i> Заказать звонок</a>
+                </div>
+                <div class="col-lg-1 d-sm-none">
+                    <div class="button__open"><i class="fa fa-navicon"></i></div>
+                </div>
+            </div>
         </div>
     </div>
     <section class="socsearch">
@@ -336,6 +345,20 @@
             </div>
         </div>
     </footer>
+    <div style="display: none;">
+        <div class="box-modal" id="exampleModal">
+            <div class="box-modal_close arcticmodal-close">закрыть</div>
+            <form action="#" class="form">
+                <i class="fa fa-paper-plane form__icon"></i>
+                <h4 class="form__title">
+                    Введите свои данные и<br> мы Вам перезвоним
+                </h4>
+                <input type="text" name="name" placeholder="Имя" class="form__input">
+                <input type="tel" name="phone" placeholder="Телефон" class="form__input">
+                <button class="form__btn btn btn-secondary" type="submit">Оставить заявку</button>
+            </form>
+        </div>
+    </div>
 
 
 
@@ -345,6 +368,7 @@
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
