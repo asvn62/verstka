@@ -267,15 +267,24 @@
     <div style="display: none;">
         <div class="box-modal" id="exampleModal">
             <div class="box-modal_close arcticmodal-close">закрыть</div>
-            <form action="#" class="form">
+            <form action="success.php" class="form js-form" id="popupResult">
                 <i class="fa fa-paper-plane form__icon"></i>
                 <h4 class="form__title">
                     Введите свои данные и<br> мы Вам перезвоним
                 </h4>
-                <input type="text" name="name" placeholder="Имя" class="form__input">
-                <input type="tel" name="phone" placeholder="Телефон" class="form__input">
-                <button class="form__btn btn btn-secondary" type="submit">Оставить заявку</button>
+                <input type="text" required name="name" placeholder="Имя" class="form__input form-control form__field">
+                <input type="tel" required name="tel" placeholder="Телефон" class="form__input form-control form__field">
+                <button class="form__btn btn btn-secondary" data-submit>Оставить заявку</button>
             </form>
+        </div>
+    </div>
+    <div id="loader">
+        <img src="img/ripple.svg">
+    </div>
+
+    <div id="overlay">
+        <div id="thx">
+            Спасибо! Мы обязательно вам перезвоним
         </div>
     </div>
 
@@ -289,6 +298,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
     <script src="js/main.js"></script>
 </body>
 
