@@ -104,6 +104,12 @@
         text-align: center;
         display: block;
         padding-top: 7px;
+        box-shadow: 0 2px 3px -1px #777;
+    }
+    
+    .button__phone:hover {
+        background: #e5e6e8;
+        color: #1cb883;
     }
     
     .button__phone i {
