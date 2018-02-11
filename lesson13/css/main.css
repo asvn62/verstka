@@ -796,11 +796,35 @@
     }
     /* Page contacts */
     
+    .map {
+        position: relative;
+    }
+    
     .window {
+        position: absolute;
+        top: 9%;
+        right: 10%;
+    }
+    
+    .box {
         width: 470px;
         padding: 22px 30px;
         background-color: rgba(124, 132, 147, 0.65);
         color: #fff;
+        border-radius: 3px;
+        position: relative;
+    }
+    
+    .box:before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        width: 0;
+        height: 0;
+        border-top: 23px solid transparent;
+        border-right: 26px solid #7c8492;
+        border-bottom: 23px solid transparent;
+        opacity: 0.65;
     }
     
     .win__title {
