@@ -387,12 +387,8 @@
         background-color: #f6f6f7;
     }
     
-    .socsearch__wrap {
-        padding: 12px 0 13px;
-    }
-    
     .socsearch__social {
-        margin: 0;
+        margin-top: 13px;
     }
     
     .socsearch__social_item:nth-child(1) {
@@ -409,7 +405,7 @@
     
     .arrow {
         height: 18px;
-        margin-top: 8px;
+        margin-top: 18px;
     }
     
     .socsearch__slogan {
