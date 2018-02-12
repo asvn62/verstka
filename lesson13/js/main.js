@@ -25,18 +25,6 @@ $(document).ready(function() {
 
 
 
-    // Slider
-
-
-    $('.review__slider').slick({
-        arrows: true,
-        prevArrow: '<button type="button" class="slick-prev"><i class="fa  fa-angle-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="fa   fa-angle-right"></i></button>',
-        dots: true
-    });
-
-    // 
-
     $('[data-submit]').on('click', function(e) {
         e.preventDefault();
         $(this).parent('form').submit();
@@ -134,6 +122,15 @@ $(document).ready(function() {
         }, 2000);
         event.preventDefault();
     })
+});
 
 
+// Slider
+$(document).ready(function() {
+    $('.review__slider').slick({
+        arrows: true,
+        prevArrow: '<button type="button" class="slick-prev"><i class="fa  fa-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="fa   fa-angle-right"></i></button>',
+        dots: true
+    })
 });

@@ -344,15 +344,17 @@
     <div style="display: none;">
         <div class="box-modal" id="exampleModal">
             <div class="box-modal_close arcticmodal-close">закрыть</div>
-            <form action="success.php" class="form js-form" method="POST" id="popupResult">
+            <form action="succcess.php" class="form js-form" method="POST" id="popupResult">
                 <i class="fa fa-paper-plane form__icon"></i>
                 <h4 class="form__title">
                     Введите свои данные и<br> мы Вам перезвоним
                 </h4>
-                <input type="text" required name="name" placeholder="Имя" class="form__input form-control form__field">
-                <input type="tel" required name="tel" placeholder="Телефон" class="form__input form-control form__field">
-                <button class="form__btn btn btn-secondary" data-submit>Оставить заявку</button>
-            </form>
+                <form action="success.php" class="js-form" id="popupResult">
+                    <input type="text" name="name" required="" placeholder="Введите имя" class="form-control form__field form__input">
+                    <input type="text" name="email" required="" id="getGA" placeholder="Введите E-mail" class="form-control form__field form__input">
+                    <input type="text" name="tel" required="" placeholder="Введите телефон" class="form-control form__field form__input">
+                    <button class="form__btn btn btn-secondary" data-submit>Оставить заявку</button>
+                </form>
         </div>
     </div>
     <div id="loader">
