@@ -53,6 +53,11 @@
         color: #fff;
     }
     
+    .page__nav {
+        flex-direction: column;
+        width: 140px;
+    }
+    
     .button__open {
         display: block;
         position: absolute;
