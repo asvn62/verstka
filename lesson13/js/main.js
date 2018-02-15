@@ -21,6 +21,10 @@ $(document).ready(function() {
         e.preventDefault();
         $('#exampleModal').arcticmodal();
     });
+    $('.app__btn').click(function(e) {
+        e.preventDefault();
+        $('#exampleModal').arcticmodal();
+    });
 
 
 

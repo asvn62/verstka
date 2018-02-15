@@ -328,6 +328,7 @@
         font-family: 'Museo Sans 100';
         color: #fff;
         font-size: 12px;
+        border-bottom: 18px solid #58647a;
     }
     
     .address {
@@ -549,9 +550,11 @@
     }
     
     .photo__item {
+        display: block;
         position: relative;
-        display: inline-block;
+        display: block;
         overflow: hidden;
+        margin-bottom: 30px;
     }
     
     .photo__item:hover {
@@ -815,7 +818,7 @@
     }
     
     .box {
-        width: 470px;
+        width: 100%;
         padding: 22px 30px;
         background-color: rgba(124, 132, 147, 0.65);
         color: #fff;

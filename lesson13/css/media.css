@@ -8,33 +8,44 @@
     .trust__offer {
         margin-bottom: 35px;
     }
+    .news__title {
+        margin-top: 25px;
+    }
+    .photo__item {
+        margin: 10px auto;
+    }
+    .footer__interest {
+        margin-bottom: 15px;
+    }
 }
 
-.news__title {
-    margin-top: 25px;
-}
-
-.footer__interest {
-    margin-bottom: 15px;
-}
-
-
-}
 @media screen and (max-width: 768px) {
     .menu {
         width: 100%;
         margin: 20px 1.5%;
     }
-    
     .menu__item {
         margin-right: 3.9%;
     }
+    .photo__title {
+        text-align: center;
+    }
+    .app {
+        width: 100%;
+    }
+    .app__wrap {
+        flex-wrap: wrap;
+    }
+    .app__phone {
+        margin: 10px 10px 0;
+        ml
+    }
 }
+
 @media screen and (max-width: 576px) {
     .container {
         padding: 0 10px;
     }
-    
     .menu {
         flex-direction: column;
         position: absolute;
@@ -44,57 +55,62 @@
         padding: 10px 20px 0;
         z-index: 99;
     }
-    
     .menu__item {
         margin-bottom: 30px;
     }
-    
     .menu__item a {
         color: #fff;
     }
-    
     .page__nav {
         flex-direction: column;
         width: 140px;
     }
-    
     .button__open {
         display: block;
         position: absolute;
         top: -20px;
         left: 10px;
     }
-    
     .descript__title {
         font-size: 38px;
     }
-    
     .descript__note {
         width: auto;
         font-size: 19px;
     }
-    
     .trust__button {
         margin: 50px auto;
     }
-    
     .consult__descript {
         flex-direction: column;
     }
-    
     .consult__descript_right {
         margin: 0;
     }
-    
     .consult__button {
         margin-left: 25%;
     }
-    
     .news__title {
         margin-top: 45px;
     }
-    
+    .window {
+        position: relative;
+        right: 0;
+    }
+    .win__header {
+        flex-wrap: wrap;
+    }
+    .win__social {
+        margin: 30px 0;
+        padding: 0;
+    }
+    .contact {
+        flex-wrap: wrap;
+    }
     .footer__button {
         margin: 20px auto;
+    }
+    .box-modal {
+        width: 300px;
     }
 }
