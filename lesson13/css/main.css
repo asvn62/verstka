@@ -553,10 +553,8 @@
         width: 269px;
         height: 269px;
         margin: 10px;
-        float: left;
         overflow: hidden;
         position: relative;
-        text-align: center;
         cursor: default;
     }
     
@@ -564,8 +562,6 @@
         display: block;
         position: relative;
     }
-    
-    .photo__item img:hover {}
     
     .photo__action {
         width: 269px;
