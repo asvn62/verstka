@@ -98,6 +98,7 @@ $(document).ready(function() {
                             })
                             .always(function(response) {
                                 setTimeout(function() {
+                                    $('#exampleModal').arcticmodal('close');
                                     $('#loader').fadeOut();
                                 }, 800);
                                 setTimeout(function() {
