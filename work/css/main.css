@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.eot');
+    src: url('Lato-Bold.eot?#iefix') format('embedded-opentype'), url('Lato-Bold.woff2') format('woff2'), url('Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.header {
+    padding: 24px 0 24px;
+    background: #2c353f;
+}
+
+.logo__descript {
+    font-family: 'Arimo';
+    font-size: 14px;
+    color: #babcbf;
+    margin-left: 25px;
+    padding-left: 23px;
+    border-left: 1px solid #a2a2a2;
+}
+
+.phone {
+    display: block;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    border-right: 1px solid #a2a2a2;
+    margin-top: 5px;
+    padding: 7px 0 7px;
+}
+
+.phone i {
+    color: #e9ae30;
+    font-size: 16px;
+}
+
+.phone__code {
+    color: #babcbf;
+    margin-left: 7px;
+}
+
+.request {
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #e9ae30;
+    display: block;
+    margin-top: 10px;
+}
